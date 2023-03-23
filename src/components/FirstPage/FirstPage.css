@@ -10,6 +10,8 @@
 
  /* styles and positions the 'click here' button */
  #button {
+  align-self: center;
+  justify-self: center;
    position: relative;
    z-index: 999;
  }  
@@ -38,7 +40,7 @@ body{
     
 }
 
-.context h1{
+.context h4{
     text-align: center;
     color: #fff;
     /* font-size: 50px; */

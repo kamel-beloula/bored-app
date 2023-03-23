@@ -28,8 +28,8 @@ function FirstPage(props) {
           G.K. Chesterton</p> */}
       </div>
       <div class="context">
-        <h1>"There are no uninteresting things, only uninterested people."
-          G.K. Chesterton</h1>
+        <h4>"There are no uninteresting things, only uninterested people."
+          G.K. Chesterton</h4>
         <Button id='button' onClick={props.getCurrentActivites}>
           <span><FaArrowRight />  Click Here  <FaArrowLeft />
           </span>
