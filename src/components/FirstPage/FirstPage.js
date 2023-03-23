@@ -18,11 +18,7 @@ function FirstPage(props) {
     <div>
       <div id="frame">
         <Animation></Animation>
-
-        {/* <p id='quote'>"There are no uninteresting things, only uninterested people."
-          G.K. Chesterton</p> */}
       </div>
-      
       <div class="context">
         <h4>
           "There are no uninteresting things, only uninterested people." G.K.
