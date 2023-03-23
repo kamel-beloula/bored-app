@@ -7,9 +7,9 @@
   pointer-events: none;
 }
 
-body {
+/* body {
   background-color: #3d96b345;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
