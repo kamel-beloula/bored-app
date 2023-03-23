@@ -17,18 +17,39 @@ function FirstPage(props) {
     <div >
       <div id="frame">
         <Animation></Animation>
-        <Container className="btnContainer">
+        {/* <Container className="btnContainer">
           <Row>
             <Col className="text-center" style ={{ marginTop: "30em"}}>
-        <Button id='button' onClick={props.getCurrentActivites}
-        >
+        
+        </Col>
+          </Row>
+      </Container> */}
+        {/* <p id='quote'>"There are no uninteresting things, only uninterested people."
+          G.K. Chesterton</p> */}
+      </div>
+      <div class="context">
+        <h1>"There are no uninteresting things, only uninterested people."
+          G.K. Chesterton</h1>
+        <Button id='button' onClick={props.getCurrentActivites}>
           <span><FaArrowRight />  Click Here  <FaArrowLeft />
           </span>
         </Button>
-        </Col>
-          </Row>
-      </Container>
-      </div>
+    </div>
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
     </div>
   )
 }

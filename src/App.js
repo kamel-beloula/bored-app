@@ -32,39 +32,11 @@ function App() {
 
   return ( // returns the activity page & footer, and hides the first page if the 'click here' button has been clicked
 
-    // <div>
-    //   {isStartButtonClicked ?
-    //     <> <ActivityPage boredData={boredData} getCurrentActivites={getCurrentActivites} />
-    //       <Footer getCurrentActivites={getCurrentActivites} /> </> :
-    //     <FirstPage getCurrentActivites={getCurrentActivites} />}
-    //     <div class="context">
-    //     <h1>Pure Css Animated Background</h1>
-    // </div>
-
-
-<div class="area" >
-<div>
+    <div>
       {isStartButtonClicked ?
         <> <ActivityPage boredData={boredData} getCurrentActivites={getCurrentActivites} />
           <Footer getCurrentActivites={getCurrentActivites} /> </> :
         <FirstPage getCurrentActivites={getCurrentActivites} />}
-        <div class="context">
-        <h5>"There are no uninteresting things, only uninterested people."
-          G.K. Chesterton</h5>
-    </div>
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
     </div>
   )
 }
