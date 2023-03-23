@@ -22,6 +22,7 @@ function FirstPage(props) {
         {/* <p id='quote'>"There are no uninteresting things, only uninterested people."
           G.K. Chesterton</p> */}
       </div>
+      
       <div class="context">
         <h4>
           "There are no uninteresting things, only uninterested people." G.K.
@@ -29,7 +30,7 @@ function FirstPage(props) {
         </h4>
         <Container className="btnContainer">
           <Row>
-            <Col className="text-center" style={{ marginTop: "30em" }}>
+            <Col className="text-center" style={{ marginTop: "auto" }}>
               <Button id="button" onClick={props.getCurrentActivites}>
                 <span>
                   <FaArrowRight /> Click Here <FaArrowLeft />
