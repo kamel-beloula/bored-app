@@ -49,7 +49,8 @@ function App() {
           <Footer getCurrentActivites={getCurrentActivites} /> </> :
         <FirstPage getCurrentActivites={getCurrentActivites} />}
         <div class="context">
-        <h1>Pure Css Animated Background</h1>
+        <h1>"There are no uninteresting things, only uninterested people."
+          G.K. Chesterton</h1>
     </div>
             <ul class="circles">
                     <li></li>

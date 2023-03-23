@@ -28,8 +28,6 @@ function FirstPage(props) {
         </Col>
           </Row>
       </Container>
-        <p id='quote'>"There are no uninteresting things, only uninterested people."
-          G.K. Chesterton</p>
       </div>
     </div>
   )
