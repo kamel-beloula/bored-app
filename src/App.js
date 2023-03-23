@@ -49,8 +49,8 @@ function App() {
           <Footer getCurrentActivites={getCurrentActivites} /> </> :
         <FirstPage getCurrentActivites={getCurrentActivites} />}
         <div class="context">
-        <h1>"There are no uninteresting things, only uninterested people."
-          G.K. Chesterton</h1>
+        <h5>"There are no uninteresting things, only uninterested people."
+          G.K. Chesterton</h5>
     </div>
             <ul class="circles">
                     <li></li>
